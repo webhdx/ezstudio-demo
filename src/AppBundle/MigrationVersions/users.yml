@@ -111,21 +111,6 @@
             disable-translation: false
             category: content
             position: 5
-        -
-            identifier: interests
-            type: eztags
-            name: Interests
-            #description: {  }
-            required: false
-            searchable: true
-            info-collector: false
-            disable-translation: false
-            category: content
-            position: 6
-            field-settings:
-                hideRootTag: false
-                editView: Default
-#                subTreeLimit: reference:ref_tag_user_segments
             validator-configuration:
                 TagsValueValidator:
                     # TODO: change to reference when merged https://github.com/kaliop-uk/ezmigrationbundle/pull/133

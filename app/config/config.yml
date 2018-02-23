@@ -9,7 +9,6 @@ imports:
     - { resource: image_variations.yml }
     - { resource: field_templates.yml }
     - { resource: ezcomments.yml }
-    - { resource: nova_ezseo.yml }
     - { resource: services.yml }
     - { resource: services/ }
 
@@ -92,7 +91,7 @@ twig:
 assetic:
     debug: '%kernel.debug%'
     use_controller: '%kernel.debug%'
-    bundles: [ EzPlatformAdminUiBundle, NetgenTagsBundle, EzSystemsPersonalizedBlockBundle ]
+    bundles: [ EzPlatformAdminUiBundle, NetgenTagsBundle, EzSystemsPersonalizedBlockBundle, EzPlatformPageBuilderBundle ]
     #java: /usr/bin/java
     filters:
         cssrewrite: ~

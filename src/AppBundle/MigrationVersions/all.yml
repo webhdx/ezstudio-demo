@@ -145,25 +145,6 @@
             disable-translation: true
             default-value: true
             position: 6
-        -
-            type: eztags
-            name: tags
-            identifier: tags
-            category: content
-            position: 7
-            field-settings:
-                hideRootTag: false
-        -
-            type: novaseometas
-            name: Metas
-            identifier: metas
-            description: 'Metas for Search Engine Optimizations'
-            required: false
-            info-collector: false
-            searchable: false # CANNOT be searchable
-            disable-translation: false
-            position: 100
-            category: metadata
     references:
         -
             identifier: ref_content_type_id__folder
@@ -236,13 +217,6 @@
             identifier: image
             category: content
 
-        -
-            type: eztags
-            name: Tags
-            identifier: tags
-            category: content
-            field-settings:
-                hideRootTag: false
     references:
         -
             identifier: ref_content_type_id__image
@@ -371,13 +345,6 @@
             category: metadata
             field-settings:
                 useSeconds: false
-        -
-            type: eztags
-            name: tags
-            identifier: tags
-            category: metadata
-            field-settings:
-                hideRootTag: false
 
 # Blog content type
 -
@@ -424,30 +391,6 @@
             disable-translation: false
             category: content
             position: 3
-        -
-            identifier: tags
-            type: eztags
-            name: tags
-            required: false
-            searchable: true
-            info-collector: false
-            disable-translation: false
-            category: content
-            position: 4
-            field-settings:
-                hideRootTag: false
-                editView: Default
-        -
-            identifier: metas
-            type: novaseometas
-            name: Metas
-            description: 'Metas for Search Engine Optimizations'
-            required: false
-            searchable: false
-            info-collector: false
-            disable-translation: false
-            category: metadata
-            position: 100
 
 # blog post content type
 -
@@ -543,33 +486,6 @@
             disable-translation: false
             category: content
             position: 7
-        -
-            identifier: tags
-            type: eztags
-            name: tags
-            #description: {  }
-            required: false
-            searchable: true
-            info-collector: false
-            disable-translation: false
-            category: content
-            position: 8
-            field-settings:
-                hideRootTag: false
-                editView: Default
-#            validator-configuration:
-#                TagsValueValidator: { subTreeLimit: 0, maxTags: 0 }
-        -
-            identifier: metas
-            type: novaseometas
-            name: Metas
-            description: 'Metas for Search Engine Optimizations'
-            required: false
-            searchable: false
-            info-collector: false
-            disable-translation: false
-            category: metadata
-            position: 100
 
 # place content type
 -
@@ -672,20 +588,6 @@
             category: content
             position: 8
         -
-            identifier: tags
-            type: eztags
-            name: tags
-            #description: ''
-            required: false
-            searchable: true
-            info-collector: false
-            disable-translation: false
-            category: content
-            position: 9
-            field-settings:
-                hideRootTag: false
-                editView: Default
-        -
             identifier: publication_date
             type: ezdatetime
             name: 'Publication Date'
@@ -700,17 +602,6 @@
                 defaultType: 1
                 useSeconds: false
                 dateInterval: null
-        -
-            identifier: metas
-            type: novaseometas
-            name: Metas
-            description: 'Metas for Search Engine Optimizations'
-            required: false
-            searchable: false
-            info-collector: false
-            disable-translation: false
-            category: metadata
-            position: 100
 
 # Place list content type
 -
@@ -768,17 +659,6 @@
             disable-translation: false
             category: content
             position: 9
-        -
-            identifier: metas
-            type: novaseometas
-            name: Metas
-            description: 'Metas for Search Engine Optimizations'
-            required: false
-            searchable: false
-            info-collector: false
-            disable-translation: false
-            category: metadata
-            position: 100
 
 # about content type
 -
@@ -836,17 +716,6 @@
             disable-translation: false
             category: content
             position: 4
-        -
-            identifier: metas
-            type: novaseometas
-            name: Metas
-            description: 'Metas for Search Engine Optimizations'
-            required: false
-            searchable: false
-            info-collector: false
-            disable-translation: false
-            category: metadata
-            position: 100
 
 # subscribe content type
 -
@@ -893,17 +762,6 @@
             disable-translation: false
             category: content
             position: 3
-        -
-            identifier: metas
-            type: novaseometas
-            name: Metas
-            description: 'Metas for Search Engine Optimizations'
-            required: false
-            searchable: false
-            info-collector: false
-            disable-translation: false
-            category: metadata
-            position: 100
 
 # delete previous file content type
 -
@@ -957,20 +815,6 @@
             disable-translation: false
             category: content
             position: 3
-        -
-            identifier: tags
-            type: eztags
-            name: tags
-            description: {  }
-            required: false
-            searchable: true
-            info-collector: false
-            disable-translation: false
-            category: content
-            position: 5
-            field-settings:
-                hideRootTag: false
-                editView: Default
     references:
         -
             identifier: ref_content_type_id__file
@@ -3451,9 +3295,6 @@
         #related_articles: # content 77, 78, 79
         authors_position: Senior Editor
         premium_content: false
-        tags:
-            - { tag_keyword:'Mexican' }
-            - { tag_keyword:'Mexico' }
     references:
         -
             identifier: ref_location_article__home__places_and_tastes__tastes__mexican_cuisine
@@ -3522,9 +3363,6 @@
         #related_articles: content 78, 79, 62
         authors_position: Editorial Director
         premium_content: false
-        tags:
-            - { tag_keyword:'Ethiopian' }
-            - { tag_keyword:'Ethiopia' }
     references:
         -
             identifier: ref_location_article__home__places_and_tastes__tastes__ethiopian_cuisine
@@ -3594,9 +3432,6 @@
         #related_articles: content 79, 80, 81
         authors_position: Social Media Editor
         premium_content: false
-        tags:
-            - { tag_keyword:'Thai' }
-            - { tag_keyword:'Thailand' }
     references:
         -
             identifier: ref_location_article__home__places_and_tastes__tastes__thailand_cuisine
@@ -3681,8 +3516,6 @@
         #related_articles: content 80, 81, 62
         authors_position: Senior Editor
         premium_content: false
-        tags:
-            - { tag_keyword:'Israel' }
     references:
         -
             identifier: ref_location_article__home__places_and_tastes__tastes__israeli_cuisine
@@ -3760,9 +3593,6 @@
         #related_articles: content 81, 62, 77
         authors_position: Senior Editor
         premium_content: false
-        tags:
-            - { tag_keyword:'Jamaican' }
-            - { tag_keyword:'Jamaica' }
     references:
         -
             identifier: ref_location_article__home__places_and_tastes__tastes__jamaican_cuisine
@@ -3852,9 +3682,6 @@
         #related_articles: content 62, 77, 78
         authors_position: Senior Editor
         premium_content: true
-        tags:
-            - { tag_keyword:'Polish' }
-            - { tag_keyword:'Poland' }
     references:
         -
             identifier: ref_location_article__home__places_and_tastes__tastes__polish_cuisine
@@ -3923,8 +3750,6 @@
         #publish_date: 2016-10-26 19:10:00
         authors_position: Senior Editor
         premium_content: false
-        tags:
-            - { tag_keyword:'Norway' }
     references:
         -
             identifier: ref_location_article__home__places_and_tastes__tastes__norwegian_cuisine
@@ -4068,9 +3893,6 @@
                 name: 'Yura Rajzer'
                 email: yura.rajzer@example.com
         authors_position: 'Content Marketing Editor'
-        tags:
-            - { tag_keyword:'New York (city, US)' }
-            - { tag_keyword:'Writing Tips' }
 
 -
     type: content
@@ -4113,8 +3935,6 @@
                 name: 'Yura Rajzer'
                 email: yura.rajzer@example.com
         authors_position: 'Content Marketing Editor'
-        tags:
-            - { tag_keyword:'Travel Journal' }
 
 -
     type: content
@@ -4153,8 +3973,6 @@
                 name: 'Yura Rajzer'
                 email: yura.rajzer@example.com
         authors_position: 'Content Marketing Editor'
-        tags:
-            - { tag_keyword:'New York (city, US)' }
     references:
         -
             identifier: ref_location_blog_post__home__blog__why_we_love_nyc
@@ -4301,9 +4119,6 @@
               </para>
             </section>
         authors_position: 'Editorial Director'
-        tags:
-            - { id: 'reference:ref_tag_geo__europe__spain' }
-            - { tag_keyword:'Valencia' }
     references:
         -
             identifier: ref_location_place__home__places_and_tastes__places__valencia_spain
@@ -4404,9 +4219,6 @@
             -
                 name: 'Sandip Patel'
                 email: sandip.patel@example.com
-        tags:
-            - { tag_keyword:'India' }
-            - { tag_keyword:'Kochin' }
     references:
         -
             identifier: ref_location_place__home__places_and_tastes__places__kochin_india
@@ -4500,9 +4312,6 @@
             -
                 name: 'Michael Wang'
                 email: michael.wang@example.com
-        tags:
-            - { tag_keyword:'Dominican Republic' }
-            - { tag_keyword:'Santo Domingo' }
     references:
         -
             identifier: ref_location_place__home__places_and_tastes__places__santo_domingo_dominican_republic
@@ -4593,9 +4402,6 @@
                 name: 'Usman Ekmekci'
                 email: usman.ekmekci@example.com
         publication_date: 2015-09-17 14:31:00
-        tags:
-            - { tag_keyword:'Alaska' }
-            - { tag_keyword:'Anchorage' }
     references:
         -
             identifier: ref_location_place__home__places_and_tastes__places__anchorage_alaska
@@ -4697,9 +4503,6 @@
                 name: 'Elizabeth Liu'
                 email: elizabeth.liu@example.com
         publication_date: 2015-09-17 14:31:00
-        tags:
-            - { tag_keyword:'New York (city, US)' }
-            - { tag_keyword:'Brooklyn' }
     references:
         -
             identifier: ref_location_place__home__places_and_tastes__places__brooklyn_new_york
@@ -4823,9 +4626,6 @@
                 name: 'Helena Karczewski'
                 email: helena.karczewski@example.com
         publication_date: 2015-09-17 14:31:00
-        tags:
-            - { tag_keyword:'Netherlands' }
-            - { tag_keyword:'Amsterdam' }
     references:
         -
             identifier: ref_location_place__home__places_and_tastes__places__amsterdam_netherlands

@@ -39,16 +39,6 @@
             name: Description
             identifier: description
             category: content
-        -
-            type: novaseometas
-            name: Metas
-            identifier: metas
-            description: Metas for Search Engine Optimizations
-            required: false
-            info-collector: false
-            searchable: false # CANNOT be searchable
-            disable-translation: false
-            category: metadata
 
 # product content type
 -
@@ -140,23 +130,6 @@
             identifier: gluten
             searchable: true
             category: content
-        -
-            type: eztags
-            name: tags
-            identifier: tags
-            category: content
-            field-settings:
-                hideRootTag: false
-        -
-            type: novaseometas
-            name: Metas
-            identifier: metas
-            description: Metas for Search Engine Optimizations
-            required: false
-            info-collector: false
-            searchable: false # CANNOT be searchable
-            disable-translation: false
-            category: metadata
 
 # product_list content
 -
@@ -224,12 +197,6 @@
         nuts: true
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Desserts' }
-            - { tag_keyword:'Cake' }
-            - { tag_keyword:'Vegetarian' }
-            - { tag_keyword:'Dairy' }
-            - { tag_keyword:'Eggs' }
 
 -
     type: content
@@ -262,12 +229,6 @@
         nuts: true
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Thai' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Spicy' }
-            - { tag_keyword:'Meat' }
-            - { tag_keyword:'Eggs' }
 
 -
     type: content
@@ -290,14 +251,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Korean' }
-            - { tag_keyword:'Rice' }
-            - { tag_keyword:'Eggs' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Meat' }
-            - { tag_keyword:'Spicy' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -320,12 +273,6 @@
         nuts: true
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Thai' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Meat' }
-            - { tag_keyword:'Rice' }
-            - { tag_keyword:'Spicy' }
 
 -
     type: content
@@ -348,12 +295,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Cake' }
-            - { tag_keyword:'Dairy' }
-            - { tag_keyword:'Desserts' }
-            - { tag_keyword:'Eggs' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -376,12 +317,6 @@
         nuts: true
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Snack' }
-            - { tag_keyword:'Dairy' }
-            - { tag_keyword:'Desserts' }
-            - { tag_keyword:'Eggs' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -404,11 +339,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Moroccan' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Vegan' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -431,10 +361,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Breakfast' }
-            - { tag_keyword:'Desserts' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -479,12 +405,6 @@
         nuts: false
         seafood: false
         gluten: false
-        tags:
-            - { tag_keyword:'Spanish' }
-            - { tag_keyword:'Appetizer' }
-            - { tag_keyword:'Eggs' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -507,12 +427,6 @@
         nuts: false
         seafood: true
         gluten: true
-        tags:
-            - { tag_keyword:'Italian' }
-            - { tag_keyword:'Seafood' }
-            - { tag_keyword:'Noodles' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Spicy' }
 
 -
     type: content
@@ -535,12 +449,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Italian' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Meat' }
-            - { tag_keyword:'Vegan' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -563,10 +471,6 @@
         nuts: false
         seafood: false
         gluten: false
-        tags:
-            - { tag_keyword:'Salad' }
-            - { tag_keyword:'Appetizer' }
-            - { tag_keyword:'Meat' }
 
 -
     type: content
@@ -589,10 +493,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Japanese' }
-            - { tag_keyword:'Fish' }
-            - { tag_keyword:'Entrée' }
 
 -
     type: content
@@ -615,14 +515,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Japanese' }
-            - { tag_keyword:'Soup' }
-            - { tag_keyword:'Eggs' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Meat' }
-            - { tag_keyword:'Noodles' }
-            - { tag_keyword:'Spicy' }
 
 -
     type: content
@@ -645,12 +537,6 @@
         nuts: false
         seafood: true
         gluten: true
-        tags:
-            - { tag_keyword:'Spanish' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Rice' }
-            - { tag_keyword:'Seafood' }
-            - { tag_keyword:'Shrimp' }
 
 -
     type: content
@@ -673,11 +559,6 @@
         nuts: false
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'English' }
-            - { tag_keyword:'Eggs' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Fish' }
 
 -
     type: content
@@ -700,11 +581,6 @@
         nuts: false
         seafood: false
         gluten: false
-        tags:
-            - { tag_keyword:'Appetizer' }
-            - { tag_keyword:'Soup' }
-            - { tag_keyword:'Vegan' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -727,16 +603,6 @@
         nuts: true
         seafood: false
         gluten: true
-        tags:
-            - { tag_keyword:'Thai' }
-            - { tag_keyword:'Dairy' }
-            - { tag_keyword:'Eggs' }
-            - { tag_keyword:'Entrée' }
-            - { tag_keyword:'Meat' }
-            - { tag_keyword:'Noodles' }
-            - { tag_keyword:'Seafood' }
-            - { tag_keyword:'Spicy' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -759,12 +625,6 @@
         nuts: false
         seafood: false
         gluten: false
-        tags:
-            - { tag_keyword:'Appetizer' }
-            - { tag_keyword:'Dairy' }
-            - { tag_keyword:'Soup' }
-            - { tag_keyword:'Spicy' }
-            - { tag_keyword:'Vegetarian' }
 
 -
     type: content
@@ -787,10 +647,4 @@
         nuts: false
         seafood: false
         gluten: false
-        tags:
-            - { tag_keyword:'Greek' }
-            - { tag_keyword:'Appetizer' }
-            - { tag_keyword:'Salad' }
-            - { tag_keyword:'Vegan' }
-            - { tag_keyword:'Vegetarian' }
 
