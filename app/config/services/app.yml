@@ -120,14 +120,6 @@ services:
         tags:
             - { name: twig.extension }
 
-    app.block.userprofiling:
-        class: 'AppBundle\Block\UserProfilingBlock'
-        arguments:
-            - '@ezpublish.api.service.content'
-            - '@ezpublish.api.service.tags'
-        tags:
-            - { name: landing_page_field_type.block_type, alias: userprofiling }
-
     # User Profiling configuration provider
     EzSystems\EzPlatformAdminUi\UI\Config\Provider\Value:
         arguments:

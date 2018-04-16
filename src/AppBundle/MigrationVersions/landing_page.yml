@@ -23,417 +23,415 @@
         description: Home page
         page: >- #json
             {
-               "page":{
-                  "layout":"1",
-                  "title":"Home",
-                  "zones":[
-                     {
-                        "id":"first",
-                        "name":"First zone",
-                        "blocks":[
-                           {
-                              "id":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd",
-                              "type":"schedule",
-                              "name":"Main Story",
-                              "view":"schedule_hero",
-                              "ttl":"0",
-                              "attributes":{
-                                 "slots":[
-                                    {
-                                       "id":"sbs-cac2f45f-cf7e-4e82-b14d-3f60d7c8162b",
-                                       "item":{
-                                          "id":"sbi-04c65887-a3a0-4e17-9e27-c6e6a888e30a",
-                                          "additionDate":"1441887589",
-                                          "contentInfo":{
-                                             "contentId": [reference:ref_content_place__home__places_and_tastes__places__brooklyn_new_york],
-                                             "name":"Brooklyn, New York",
-                                             "publishedDate":"1442496750"
-                                          },
-                                          "originBlockId":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd"
-                                       }
-                                    }
-                                 ],
-                                 "initialItems":[
-                                    {
-                                       "id":"sbi-04c65887-a3a0-4e17-9e27-c6e6a888e30a",
-                                       "additionDate":"1441887589",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_place__home__places_and_tastes__places__brooklyn_new_york],
-                                          "name":"Brooklyn, New York",
-                                          "publishedDate":"1442496750"
-                                       },
-                                       "originBlockId":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd"
-                                    }
-                                 ],
-                                 "initialFlowingInItems":[
-                                 ],
-                                 "overflow":null,
-                                 "events":[
-                                    {
-                                       "id":"sbe-39d60fd2-8602-4585-bec4-4912f9e4d2fd",
-                                       "date":"1441887589",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-04c65887-a3a0-4e17-9e27-c6e6a888e30a",
-                                          "additionDate":"1441887589",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__brooklyn_new_york],
-                                             "name":"Brooklyn, New York",
-                                             "publishedDate":"1442496750"
-                                          },
-                                          "originBlockId":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd"
-                                       }
-                                    }
-                                 ],
-                                 "snapshots":[
-                                 ]
-                              }
-                           },
-                           {
-                              "id":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055",
-                              "type":"schedule",
-                              "name":"Editorial teasers",
-                              "view":"schedule_grid",
-                              "ttl":"0",
-                              "attributes":{
-                                 "slots":[
-                                    {
-                                       "id":"sbs-65fd9f93-58db-4339-aa26-aa941c53116e",
-                                       "item":{
-                                          "id":"sbi-67d6c018-f06c-4fd9-82a4-9fb0d9878431",
-                                          "additionDate":"1441887643",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
-                                             "name":"Kochin, India",
-                                             "publishedDate":"1442496190"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbs-baa19b1c-a39c-43c7-95ee-dd66d85ab852",
-                                       "item":{
-                                          "id":"sbi-002ecb85-5714-429f-8feb-d81565cacecb",
-                                          "additionDate":"1441887620",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
-                                             "name":"Anchorage, Alaska",
-                                             "publishedDate":"1442496586"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbs-846c7827-0d04-45f6-bb21-33b9949bad9f",
-                                       "item":{
-                                          "id":"sbi-1c3309af-7229-49dd-8485-50e873b9d5aa",
-                                          "additionDate":"1441705522",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
-                                             "name":"Mexican Cuisine",
-                                             "publishedDate":"1442482389"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbs-47c4fc22-c337-457c-8afe-b383150317e8",
-                                       "item":{
-                                          "id":"sbi-ef1784da-ef20-4855-852d-d42cf781ea46",
-                                          "additionDate":"1441705511",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_blog_post__home__blog__why_we_love_nyc],
-                                             "name":"Why we love NYC",
-                                             "publishedDate":"1442493457"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbs-9eb55ffe-5c89-4492-82df-319bc09820a4",
-                                       "item":{
-                                          "id":"sbi-4e5cb117-fab0-42b6-be4b-abce822ff6ee",
-                                          "additionDate":"1441705508",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
-                                             "name":"Santo Domingo, Dominican Republic",
-                                             "publishedDate":"1442496265"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbs-1b513411-ce2f-411f-9788-7928d4537531",
-                                       "item":{
-                                          "id":"sbi-0703d6f0-9c0f-4dab-babb-db4327439c9a",
-                                          "additionDate":"1441705507",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
-                                             "name":"Valencia, Spain",
-                                             "publishedDate":"1442495595"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbs-7e777c3c-0b68-4bb6-abf2-b1b993c37409",
-                                       "item":{
-                                          "id":"sbi-64d102f7-7dac-4585-9b81-232c5744bfdb",
-                                          "additionDate":"1441705500",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
-                                             "name":"Israeli Cuisine",
-                                             "publishedDate":"1442514289"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbs-a24f1c85-001d-4e63-9e94-170d135b1ecd",
-                                       "item":null
-                                    }
-                                 ],
-                                 "initialItems":[
-                                    {
-                                       "id":"sbi-64d102f7-7dac-4585-9b81-232c5744bfdb",
-                                       "additionDate":"1441705500",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
-                                          "name":"Israeli Cuisine",
-                                          "publishedDate":"1442514289"
-                                       },
-                                       "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                    },
-                                    {
-                                       "id":"sbi-0703d6f0-9c0f-4dab-babb-db4327439c9a",
-                                       "additionDate":"1441705507",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
-                                          "name":"Valencia, Spain",
-                                          "publishedDate":"1442495595"
-                                       },
-                                       "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                    },
-                                    {
-                                       "id":"sbi-4e5cb117-fab0-42b6-be4b-abce822ff6ee",
-                                       "additionDate":"1441705508",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
-                                          "name":"Santo Domingo, Dominican Republic",
-                                          "publishedDate":"1442496265"
-                                       },
-                                       "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                    },
-                                    {
-                                       "id":"sbi-ef1784da-ef20-4855-852d-d42cf781ea46",
-                                       "additionDate":"1441705511",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_blog_post__home__blog__why_we_love_nyc],
-                                          "name":"Why we love NYC",
-                                          "publishedDate":"1442493457"
-                                       },
-                                       "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                    },
-                                    {
-                                       "id":"sbi-1c3309af-7229-49dd-8485-50e873b9d5aa",
-                                       "additionDate":"1441705522",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
-                                          "name":"Mexican Cuisine",
-                                          "publishedDate":"1442482389"
-                                       },
-                                       "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                    },
-                                    {
-                                       "id":"sbi-002ecb85-5714-429f-8feb-d81565cacecb",
-                                       "additionDate":"1441887620",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
-                                          "name":"Anchorage, Alaska",
-                                          "publishedDate":"1442496586"
-                                       },
-                                       "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                    },
-                                    {
-                                       "id":"sbi-67d6c018-f06c-4fd9-82a4-9fb0d9878431",
-                                       "additionDate":"1441887643",
-                                       "contentInfo":{
-                                          "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
-                                          "name":"Kochin, India",
-                                          "publishedDate":"1442496190"
-                                       },
-                                       "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                    }
-                                 ],
-                                 "initialFlowingInItems":[
-                                 ],
-                                 "overflow":null,
-                                 "events":[
-                                    {
-                                       "id":"sbe-a1ad2968-0a1f-41c4-b0fd-73be7bde7a7b",
-                                       "date":"1441887620",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-002ecb85-5714-429f-8feb-d81565cacecb",
-                                          "additionDate":"1441887620",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
-                                             "name":"Anchorage, Alaska",
-                                             "publishedDate":"1442496586"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbe-a79fff28-6186-4887-8295-156912e4fa54",
-                                       "date":"1441887643",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-67d6c018-f06c-4fd9-82a4-9fb0d9878431",
-                                          "additionDate":"1441887643",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
-                                             "name":"Kochin, India",
-                                             "publishedDate":"1442496190"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbe-58a3161c-5131-48ff-8558-837f6698087b",
-                                       "date":"1441705522",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-1c3309af-7229-49dd-8485-50e873b9d5aa",
-                                          "additionDate":"1441705522",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
-                                             "name":"Mexican Cuisine",
-                                             "publishedDate":"1442482389"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbe-8fc99454-26da-483f-9917-4bd8eade4f61",
-                                       "date":"1441705511",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-ef1784da-ef20-4855-852d-d42cf781ea46",
-                                          "additionDate":"1441705511",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_blog_post__home__blog__why_we_love_nyc],
-                                             "name":"Why we love NYC",
-                                             "publishedDate":"1442493457"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbe-f39decfd-2bf7-48c1-b0d7-6784f6e6ee15",
-                                       "date":"1441705508",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-4e5cb117-fab0-42b6-be4b-abce822ff6ee",
-                                          "additionDate":"1441705508",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
-                                             "name":"Santo Domingo, Dominican Republic",
-                                             "publishedDate":"1442496265"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbe-9830ce38-8981-49da-a766-3822f0f0fc36",
-                                       "date":"1441705507",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-0703d6f0-9c0f-4dab-babb-db4327439c9a",
-                                          "additionDate":"1441705507",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
-                                             "name":"Valencia, Spain",
-                                             "publishedDate":"1442495595"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    },
-                                    {
-                                       "id":"sbe-9a07b631-943f-488b-8dbc-e031e45cfd38",
-                                       "date":"1441705500",
-                                       "type":"itemAdded",
-                                       "item":{
-                                          "id":"sbi-64d102f7-7dac-4585-9b81-232c5744bfdb",
-                                          "additionDate":"1441705500",
-                                          "contentInfo":{
-                                             "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
-                                             "name":"Israeli Cuisine",
-                                             "publishedDate":"1442514289"
-                                          },
-                                          "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
-                                       }
-                                    }
-                                 ],
-                                 "snapshots":[
-                                 ]
-                              }
-                           },
-                           {
-                              "id":"b-294fbffd-744a-6ac6-3f29-9783799c10f6",
-                              "type":"banner",
-                              "name":"Banner Block",
-                              "view":"banner_container",
-                              "ttl":"0",
-                              "attributes":{
-                                 "contentId":[reference:ref_content_image__media__images__paris_banner],
-                                 "url": "http://ez.no"
-                              }
-                           },
-                           {
-                              "id":"b-96ba244b-c72d-740d-0ccd-fdcec4e23af4",
-                              "type":"embed",
-                              "name":"Embed Block",
-                              "view":"embed",
-                              "ttl":"0",
-                              "attributes":{
-                                 "contentId":[reference:ref_content_image__media__images__visual_travels]
-                              }
-                           },
-                           {
-                              "id":"b-b27742d1-628f-0c8c-a48b-0b1dd0d7e5f9",
-                              "type":"gallery",
-                              "name":"Gallery Block",
-                              "view":"gallery",
-                              "ttl":"0",
-                              "attributes":{
-                                 "contentId":[reference:ref_content_gallery__media__gallery]
-                              }
-                           },
-                           {
-                              "id":"b-bf850b3f-e770-6e8f-46d0-ceff8d0c94f4",
-                              "type":"embed",
-                              "name":"Embed Block",
-                              "view":"embed",
-                              "ttl":"0",
-                              "attributes":{
-                                 "contentId":[reference:ref_content_image__media__images__places_to_visit]
-                              }
-                           },
-                           {
-                              "id":"b-b3a66965-cec8-8c27-bb5c-a773e26bad3a",
-                              "type":"places",
-                              "name":"Places Block",
-                              "view":"map",
-                              "ttl":"0",
-                              "attributes":{
-                                 "contentId":[reference:ref_content_folder__home__places_and_tastes__tastes]
-                              }
-                           }
-                        ]
-                     }
-                  ]
-               }
+              "layout":"1",
+              "title":"Home",
+              "zones":[
+                 {
+                    "id":"first",
+                    "name":"First zone",
+                    "blocks":[
+                       {
+                          "id":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd",
+                          "type":"schedule",
+                          "name":"Main Story",
+                          "view":"schedule_hero",
+                          "ttl":"0",
+                          "attributes":{
+                             "slots":[
+                                {
+                                   "id":"sbs-cac2f45f-cf7e-4e82-b14d-3f60d7c8162b",
+                                   "item":{
+                                      "id":"sbi-04c65887-a3a0-4e17-9e27-c6e6a888e30a",
+                                      "additionDate":"1441887589",
+                                      "contentInfo":{
+                                         "contentId": [reference:ref_content_place__home__places_and_tastes__places__brooklyn_new_york],
+                                         "name":"Brooklyn, New York",
+                                         "publishedDate":"1442496750"
+                                      },
+                                      "originBlockId":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd"
+                                   }
+                                }
+                             ],
+                             "initialItems":[
+                                {
+                                   "id":"sbi-04c65887-a3a0-4e17-9e27-c6e6a888e30a",
+                                   "additionDate":"1441887589",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_place__home__places_and_tastes__places__brooklyn_new_york],
+                                      "name":"Brooklyn, New York",
+                                      "publishedDate":"1442496750"
+                                   },
+                                   "originBlockId":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd"
+                                }
+                             ],
+                             "initialFlowingInItems":[
+                             ],
+                             "overflow":null,
+                             "events":[
+                                {
+                                   "id":"sbe-39d60fd2-8602-4585-bec4-4912f9e4d2fd",
+                                   "date":"1441887589",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-04c65887-a3a0-4e17-9e27-c6e6a888e30a",
+                                      "additionDate":"1441887589",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__brooklyn_new_york],
+                                         "name":"Brooklyn, New York",
+                                         "publishedDate":"1442496750"
+                                      },
+                                      "originBlockId":"b-5d5a0808-bd49-0e85-650c-c915e73b51cd"
+                                   }
+                                }
+                             ],
+                             "snapshots":[
+                             ]
+                          }
+                       },
+                       {
+                          "id":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055",
+                          "type":"schedule",
+                          "name":"Editorial teasers",
+                          "view":"schedule_grid",
+                          "ttl":"0",
+                          "attributes":{
+                             "slots":[
+                                {
+                                   "id":"sbs-65fd9f93-58db-4339-aa26-aa941c53116e",
+                                   "item":{
+                                      "id":"sbi-67d6c018-f06c-4fd9-82a4-9fb0d9878431",
+                                      "additionDate":"1441887643",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
+                                         "name":"Kochin, India",
+                                         "publishedDate":"1442496190"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbs-baa19b1c-a39c-43c7-95ee-dd66d85ab852",
+                                   "item":{
+                                      "id":"sbi-002ecb85-5714-429f-8feb-d81565cacecb",
+                                      "additionDate":"1441887620",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
+                                         "name":"Anchorage, Alaska",
+                                         "publishedDate":"1442496586"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbs-846c7827-0d04-45f6-bb21-33b9949bad9f",
+                                   "item":{
+                                      "id":"sbi-1c3309af-7229-49dd-8485-50e873b9d5aa",
+                                      "additionDate":"1441705522",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
+                                         "name":"Mexican Cuisine",
+                                         "publishedDate":"1442482389"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbs-47c4fc22-c337-457c-8afe-b383150317e8",
+                                   "item":{
+                                      "id":"sbi-ef1784da-ef20-4855-852d-d42cf781ea46",
+                                      "additionDate":"1441705511",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_blog_post__home__blog__why_we_love_nyc],
+                                         "name":"Why we love NYC",
+                                         "publishedDate":"1442493457"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbs-9eb55ffe-5c89-4492-82df-319bc09820a4",
+                                   "item":{
+                                      "id":"sbi-4e5cb117-fab0-42b6-be4b-abce822ff6ee",
+                                      "additionDate":"1441705508",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
+                                         "name":"Santo Domingo, Dominican Republic",
+                                         "publishedDate":"1442496265"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbs-1b513411-ce2f-411f-9788-7928d4537531",
+                                   "item":{
+                                      "id":"sbi-0703d6f0-9c0f-4dab-babb-db4327439c9a",
+                                      "additionDate":"1441705507",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
+                                         "name":"Valencia, Spain",
+                                         "publishedDate":"1442495595"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbs-7e777c3c-0b68-4bb6-abf2-b1b993c37409",
+                                   "item":{
+                                      "id":"sbi-64d102f7-7dac-4585-9b81-232c5744bfdb",
+                                      "additionDate":"1441705500",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
+                                         "name":"Israeli Cuisine",
+                                         "publishedDate":"1442514289"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbs-a24f1c85-001d-4e63-9e94-170d135b1ecd",
+                                   "item":null
+                                }
+                             ],
+                             "initialItems":[
+                                {
+                                   "id":"sbi-64d102f7-7dac-4585-9b81-232c5744bfdb",
+                                   "additionDate":"1441705500",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
+                                      "name":"Israeli Cuisine",
+                                      "publishedDate":"1442514289"
+                                   },
+                                   "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                },
+                                {
+                                   "id":"sbi-0703d6f0-9c0f-4dab-babb-db4327439c9a",
+                                   "additionDate":"1441705507",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
+                                      "name":"Valencia, Spain",
+                                      "publishedDate":"1442495595"
+                                   },
+                                   "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                },
+                                {
+                                   "id":"sbi-4e5cb117-fab0-42b6-be4b-abce822ff6ee",
+                                   "additionDate":"1441705508",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
+                                      "name":"Santo Domingo, Dominican Republic",
+                                      "publishedDate":"1442496265"
+                                   },
+                                   "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                },
+                                {
+                                   "id":"sbi-ef1784da-ef20-4855-852d-d42cf781ea46",
+                                   "additionDate":"1441705511",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_blog_post__home__blog__why_we_love_nyc],
+                                      "name":"Why we love NYC",
+                                      "publishedDate":"1442493457"
+                                   },
+                                   "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                },
+                                {
+                                   "id":"sbi-1c3309af-7229-49dd-8485-50e873b9d5aa",
+                                   "additionDate":"1441705522",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
+                                      "name":"Mexican Cuisine",
+                                      "publishedDate":"1442482389"
+                                   },
+                                   "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                },
+                                {
+                                   "id":"sbi-002ecb85-5714-429f-8feb-d81565cacecb",
+                                   "additionDate":"1441887620",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
+                                      "name":"Anchorage, Alaska",
+                                      "publishedDate":"1442496586"
+                                   },
+                                   "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                },
+                                {
+                                   "id":"sbi-67d6c018-f06c-4fd9-82a4-9fb0d9878431",
+                                   "additionDate":"1441887643",
+                                   "contentInfo":{
+                                      "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
+                                      "name":"Kochin, India",
+                                      "publishedDate":"1442496190"
+                                   },
+                                   "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                }
+                             ],
+                             "initialFlowingInItems":[
+                             ],
+                             "overflow":null,
+                             "events":[
+                                {
+                                   "id":"sbe-a1ad2968-0a1f-41c4-b0fd-73be7bde7a7b",
+                                   "date":"1441887620",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-002ecb85-5714-429f-8feb-d81565cacecb",
+                                      "additionDate":"1441887620",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
+                                         "name":"Anchorage, Alaska",
+                                         "publishedDate":"1442496586"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbe-a79fff28-6186-4887-8295-156912e4fa54",
+                                   "date":"1441887643",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-67d6c018-f06c-4fd9-82a4-9fb0d9878431",
+                                      "additionDate":"1441887643",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
+                                         "name":"Kochin, India",
+                                         "publishedDate":"1442496190"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbe-58a3161c-5131-48ff-8558-837f6698087b",
+                                   "date":"1441705522",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-1c3309af-7229-49dd-8485-50e873b9d5aa",
+                                      "additionDate":"1441705522",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
+                                         "name":"Mexican Cuisine",
+                                         "publishedDate":"1442482389"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbe-8fc99454-26da-483f-9917-4bd8eade4f61",
+                                   "date":"1441705511",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-ef1784da-ef20-4855-852d-d42cf781ea46",
+                                      "additionDate":"1441705511",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_blog_post__home__blog__why_we_love_nyc],
+                                         "name":"Why we love NYC",
+                                         "publishedDate":"1442493457"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbe-f39decfd-2bf7-48c1-b0d7-6784f6e6ee15",
+                                   "date":"1441705508",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-4e5cb117-fab0-42b6-be4b-abce822ff6ee",
+                                      "additionDate":"1441705508",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
+                                         "name":"Santo Domingo, Dominican Republic",
+                                         "publishedDate":"1442496265"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbe-9830ce38-8981-49da-a766-3822f0f0fc36",
+                                   "date":"1441705507",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-0703d6f0-9c0f-4dab-babb-db4327439c9a",
+                                      "additionDate":"1441705507",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
+                                         "name":"Valencia, Spain",
+                                         "publishedDate":"1442495595"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                },
+                                {
+                                   "id":"sbe-9a07b631-943f-488b-8dbc-e031e45cfd38",
+                                   "date":"1441705500",
+                                   "type":"itemAdded",
+                                   "item":{
+                                      "id":"sbi-64d102f7-7dac-4585-9b81-232c5744bfdb",
+                                      "additionDate":"1441705500",
+                                      "contentInfo":{
+                                         "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
+                                         "name":"Israeli Cuisine",
+                                         "publishedDate":"1442514289"
+                                      },
+                                      "originBlockId":"b-83fc6e49-d87f-9387-e4e1-b0951a3d9055"
+                                   }
+                                }
+                             ],
+                             "snapshots":[
+                             ]
+                          }
+                       },
+                       {
+                          "id":"b-294fbffd-744a-6ac6-3f29-9783799c10f6",
+                          "type":"banner",
+                          "name":"Banner Block",
+                          "view":"banner_container",
+                          "ttl":"0",
+                          "attributes":{
+                             "contentId":[reference:ref_content_image__media__images__paris_banner],
+                             "url": "http://ez.no"
+                          }
+                       },
+                       {
+                          "id":"b-96ba244b-c72d-740d-0ccd-fdcec4e23af4",
+                          "type":"embed",
+                          "name":"Embed Block",
+                          "view":"embed",
+                          "ttl":"0",
+                          "attributes":{
+                             "contentId":[reference:ref_content_image__media__images__visual_travels]
+                          }
+                       },
+                       {
+                          "id":"b-b27742d1-628f-0c8c-a48b-0b1dd0d7e5f9",
+                          "type":"gallery",
+                          "name":"Gallery Block",
+                          "view":"gallery",
+                          "ttl":"0",
+                          "attributes":{
+                             "contentId":[reference:ref_content_gallery__media__gallery]
+                          }
+                       },
+                       {
+                          "id":"b-bf850b3f-e770-6e8f-46d0-ceff8d0c94f4",
+                          "type":"embed",
+                          "name":"Embed Block",
+                          "view":"embed",
+                          "ttl":"0",
+                          "attributes":{
+                             "contentId":[reference:ref_content_image__media__images__places_to_visit]
+                          }
+                       },
+                       {
+                          "id":"b-b3a66965-cec8-8c27-bb5c-a773e26bad3a",
+                          "type":"places",
+                          "name":"Places Block",
+                          "view":"map",
+                          "ttl":"0",
+                          "attributes":{
+                             "contentId":[reference:ref_content_folder__home__places_and_tastes__tastes]
+                          }
+                       }
+                    ]
+                 }
+              ]
             }
     references:
         -
@@ -465,38 +463,24 @@
         description: Places & Tastes
         page: >- #json
             {
-              "page": {
-                "layout": "2_1",
-                "title": "Places & Tastes",
-                "zones": [
-                  {
-                    "id": "first",
-                    "name": "First zone",
-                    "blocks": [
-                      {
-                        "id": "b-0d3124ff-2c89-ddb8-9c7f-855604d28d58",
-                        "type": "schedule",
-                        "name": "Main Story",
-                        "view": "schedule_hero",
-                        "ttl": "0",
-                        "attributes": {
-                          "slots": [
-                            {
-                              "id": "sbs-54cd8c2b-80f6-488f-859b-c4103d2e67b3",
-                              "item": {
-                                "id": "sbi-da3ce96e-89c2-47c2-a1eb-feb1d87c7f0e",
-                                "additionDate": "1441955852",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__amsterdam_netherlands],
-                                  "name": "Amsterdam, Netherlands",
-                                  "publishedDate": "1442496937"
-                                },
-                                "originBlockId": "b-0d3124ff-2c89-ddb8-9c7f-855604d28d58"
-                              }
-                            }
-                          ],
-                          "initialItems": [
-                            {
+              "layout": "2_1",
+              "title": "Places & Tastes",
+              "zones": [
+                {
+                  "id": "first",
+                  "name": "First zone",
+                  "blocks": [
+                    {
+                      "id": "b-0d3124ff-2c89-ddb8-9c7f-855604d28d58",
+                      "type": "schedule",
+                      "name": "Main Story",
+                      "view": "schedule_hero",
+                      "ttl": "0",
+                      "attributes": {
+                        "slots": [
+                          {
+                            "id": "sbs-54cd8c2b-80f6-488f-859b-c4103d2e67b3",
+                            "item": {
                               "id": "sbi-da3ce96e-89c2-47c2-a1eb-feb1d87c7f0e",
                               "additionDate": "1441955852",
                               "contentInfo": {
@@ -506,132 +490,63 @@
                               },
                               "originBlockId": "b-0d3124ff-2c89-ddb8-9c7f-855604d28d58"
                             }
-                          ],
-                          "initialFlowingInItems": [],
-                          "overflow": null,
-                          "events": [
-                            {
-                              "id": "sbe-d6628070-b197-48bd-8d2f-3cbcb680c77a",
-                              "date": "1441955852",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-da3ce96e-89c2-47c2-a1eb-feb1d87c7f0e",
-                                "additionDate": "1441955852",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__amsterdam_netherlands],
-                                  "name": "Amsterdam, Netherlands",
-                                  "publishedDate": "1442496937"
-                                },
-                                "originBlockId": "b-0d3124ff-2c89-ddb8-9c7f-855604d28d58"
-                              }
+                          }
+                        ],
+                        "initialItems": [
+                          {
+                            "id": "sbi-da3ce96e-89c2-47c2-a1eb-feb1d87c7f0e",
+                            "additionDate": "1441955852",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_place__home__places_and_tastes__places__amsterdam_netherlands],
+                              "name": "Amsterdam, Netherlands",
+                              "publishedDate": "1442496937"
+                            },
+                            "originBlockId": "b-0d3124ff-2c89-ddb8-9c7f-855604d28d58"
+                          }
+                        ],
+                        "initialFlowingInItems": [],
+                        "overflow": null,
+                        "events": [
+                          {
+                            "id": "sbe-d6628070-b197-48bd-8d2f-3cbcb680c77a",
+                            "date": "1441955852",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-da3ce96e-89c2-47c2-a1eb-feb1d87c7f0e",
+                              "additionDate": "1441955852",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__amsterdam_netherlands],
+                                "name": "Amsterdam, Netherlands",
+                                "publishedDate": "1442496937"
+                              },
+                              "originBlockId": "b-0d3124ff-2c89-ddb8-9c7f-855604d28d58"
                             }
-                          ],
-                          "snapshots": []
-                        }
-                      },
-                      {
-                        "id": "b-36ce56c4-e5be-eb6b-bab7-efd483d622c1",
-                        "type": "embed",
-                        "name": "Embed Block",
-                        "view": "embed",
-                        "ttl": "0",
-                        "attributes": {
-                          "contentId":[reference:ref_content_place_list__home__places_and_tastes__places]
-                        }
-                      },
-                      {
-                        "id": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a",
-                        "type": "schedule",
-                        "name": "Top grid",
-                        "view": "schedule_grid-4",
-                        "ttl": "0",
-                        "attributes": {
-                          "slots": [
-                            {
-                              "id": "sbs-6956b44e-bb50-4c34-a096-61621541e1bc",
-                              "item": {
-                                "id": "sbi-81806292-b76b-45c2-82d3-079c22ffa648",
-                                "additionDate": "1441974803",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
-                                  "name": "Valencia, Spain",
-                                  "publishedDate": "1442495595"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            },
-                            {
-                              "id": "sbs-05d5810d-5a69-4231-83b4-c5ec19f345a8",
-                              "item": {
-                                "id": "sbi-73daa582-53a2-4a06-9420-3d5a0820434d",
-                                "additionDate": "1441974782",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
-                                  "name": "Kochin, India",
-                                  "publishedDate": "1442496190"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            },
-                            {
-                              "id": "sbs-0ba87bd8-ba2a-4f97-a8f8-8e2b696ed1b0",
-                              "item": {
-                                "id": "sbi-9e0912cb-d36f-4b64-91cf-b0cc4fb6c819",
-                                "additionDate": "1441974763",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
-                                  "name": "Santo Domingo, Dominican Republic",
-                                  "publishedDate": "1442496265"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            },
-                            {
-                              "id": "sbs-e7ed3994-06bf-4cb9-9a07-05cb17f15ffd",
-                              "item": {
-                                "id": "sbi-2b29db0e-bc9c-4bdd-8e0d-ce590bdbb15c",
-                                "additionDate": "1441974705",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
-                                  "name": "Anchorage, Alaska",
-                                  "publishedDate": "1442496586"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            }
-                          ],
-                          "initialItems": [
-                            {
-                              "id": "sbi-2b29db0e-bc9c-4bdd-8e0d-ce590bdbb15c",
-                              "additionDate": "1441974705",
-                              "contentInfo": {
-                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
-                                "name": "Anchorage, Alaska",
-                                "publishedDate": "1442496586"
-                              },
-                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                            },
-                            {
-                              "id": "sbi-9e0912cb-d36f-4b64-91cf-b0cc4fb6c819",
-                              "additionDate": "1441974763",
-                              "contentInfo": {
-                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
-                                "name": "Santo Domingo, Dominican Republic",
-                                "publishedDate": "1442496265"
-                              },
-                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                            },
-                            {
-                              "id": "sbi-73daa582-53a2-4a06-9420-3d5a0820434d",
-                              "additionDate": "1441974782",
-                              "contentInfo": {
-                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
-                                "name": "Kochin, India",
-                                "publishedDate": "1442496190"
-                              },
-                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                            },
-                            {
+                          }
+                        ],
+                        "snapshots": []
+                      }
+                    },
+                    {
+                      "id": "b-36ce56c4-e5be-eb6b-bab7-efd483d622c1",
+                      "type": "embed",
+                      "name": "Embed Block",
+                      "view": "embed",
+                      "ttl": "0",
+                      "attributes": {
+                        "contentId":[reference:ref_content_place_list__home__places_and_tastes__places]
+                      }
+                    },
+                    {
+                      "id": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a",
+                      "type": "schedule",
+                      "name": "Top grid",
+                      "view": "schedule_grid-4",
+                      "ttl": "0",
+                      "attributes": {
+                        "slots": [
+                          {
+                            "id": "sbs-6956b44e-bb50-4c34-a096-61621541e1bc",
+                            "item": {
                               "id": "sbi-81806292-b76b-45c2-82d3-079c22ffa648",
                               "additionDate": "1441974803",
                               "contentInfo": {
@@ -641,177 +556,177 @@
                               },
                               "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
                             }
-                          ],
-                          "initialFlowingInItems": [],
-                          "overflow": null,
-                          "events": [
-                            {
-                              "id": "sbe-41c87754-c968-436e-984c-44da1d3d27b4",
-                              "date": "1441974803",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-81806292-b76b-45c2-82d3-079c22ffa648",
-                                "additionDate": "1441974803",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
-                                  "name": "Valencia, Spain",
-                                  "publishedDate": "1442495595"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            },
-                            {
-                              "id": "sbe-ecc4dcaf-68c9-4245-be72-8b22ed838190",
-                              "date": "1441974782",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-73daa582-53a2-4a06-9420-3d5a0820434d",
-                                "additionDate": "1441974782",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
-                                  "name": "Kochin, India",
-                                  "publishedDate": "1442496190"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            },
-                            {
-                              "id": "sbe-74e6852f-dee8-4b2a-bbc0-0de2ead3c66e",
-                              "date": "1441974763",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-9e0912cb-d36f-4b64-91cf-b0cc4fb6c819",
-                                "additionDate": "1441974763",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
-                                  "name": "Santo Domingo, Dominican Republic",
-                                  "publishedDate": "1442496265"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            },
-                            {
-                              "id": "sbe-f6fa17e3-d7d0-43d3-bd1e-58ddd0b0144f",
-                              "date": "1441974705",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-2b29db0e-bc9c-4bdd-8e0d-ce590bdbb15c",
-                                "additionDate": "1441974705",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
-                                  "name": "Anchorage, Alaska",
-                                  "publishedDate": "1442496586"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
-                              }
-                            }
-                          ],
-                          "snapshots": []
-                        }
-                      },
-                      {
-                        "id": "b-36ce56c4-e5be-eb6b-bab7-efd483d622c0",
-                        "type": "embed",
-                        "name": "Embed Block",
-                        "view": "embed",
-                        "ttl": "0",
-                        "attributes": {
-                          "contentId":[reference:ref_content_folder__home__places_and_tastes__tastes]
-                        }
-                      },
-                      {
-                        "id": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b",
-                        "type": "schedule",
-                        "name": "Bottom grid",
-                        "view": "schedule_grid-4",
-                        "ttl": "0",
-                        "attributes": {
-                          "slots": [
-                            {
-                              "id": "sbs-2a4b3768-5d83-4a0e-85f8-ab9b8e77778f",
-                              "item": {
-                                "id": "sbi-bdb3eeee-ccc7-424b-8fad-aa094c31f281",
-                                "additionDate": "1441974803",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__ethiopian_cuisine],
-                                  "name": "Ethiopian Cuisine",
-                                  "publishedDate": "1442581802"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
-                            },
-                            {
-                              "id": "sbs-02da0fe4-20e6-4c20-9ac3-a86680ef2241",
-                              "item": {
-                                "id": "sbi-100bbda8-ab48-41e1-af4c-49ca3054dadd",
-                                "additionDate": "1441974782",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
-                                  "name": "Mexican Cuisine",
-                                  "publishedDate": "1442482389"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
-                            },
-                            {
-                              "id": "sbs-130abf0b-c7d5-4a4f-9c1a-42e4a7058f4b",
-                              "item": {
-                                "id": "sbi-10dde6f3-6d70-45f5-97dc-cdc395fa9c98",
-                                "additionDate": "1441974763",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
-                                  "name": "Israeli Cuisine",
-                                  "publishedDate": "1442514289"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
-                            },
-                            {
-                              "id": "sbs-895c37c1-1b59-4cd7-88d1-707bc8d89873",
-                              "item": {
-                                "id": "sbi-93ea7822-501a-408d-92d1-8d13b74b4086",
-                                "additionDate": "1441974705",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__thailand_cuisine],
-                                  "name": "Thai Cuisine",
-                                  "publishedDate": "1442581846"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
-                            }
-                          ],
-                          "initialItems": [
-                            {
-                              "id": "sbi-93ea7822-501a-408d-92d1-8d13b74b4086",
-                              "additionDate": "1441974705",
-                              "contentInfo": {
-                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__thailand_cuisine],
-                                "name": "Thai Cuisine",
-                                "publishedDate": "1442581846"
-                              },
-                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                            },
-                            {
-                              "id": "sbi-10dde6f3-6d70-45f5-97dc-cdc395fa9c98",
-                              "additionDate": "1441974763",
-                              "contentInfo": {
-                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
-                                "name": "Israeli Cuisine",
-                                "publishedDate": "1442514289"
-                              },
-                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                            },
-                            {
-                              "id": "sbi-100bbda8-ab48-41e1-af4c-49ca3054dadd",
+                          },
+                          {
+                            "id": "sbs-05d5810d-5a69-4231-83b4-c5ec19f345a8",
+                            "item": {
+                              "id": "sbi-73daa582-53a2-4a06-9420-3d5a0820434d",
                               "additionDate": "1441974782",
                               "contentInfo": {
-                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
-                                "name": "Mexican Cuisine",
-                                "publishedDate": "1442482389"
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
+                                "name": "Kochin, India",
+                                "publishedDate": "1442496190"
                               },
-                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                            }
+                          },
+                          {
+                            "id": "sbs-0ba87bd8-ba2a-4f97-a8f8-8e2b696ed1b0",
+                            "item": {
+                              "id": "sbi-9e0912cb-d36f-4b64-91cf-b0cc4fb6c819",
+                              "additionDate": "1441974763",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
+                                "name": "Santo Domingo, Dominican Republic",
+                                "publishedDate": "1442496265"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                            }
+                          },
+                          {
+                            "id": "sbs-e7ed3994-06bf-4cb9-9a07-05cb17f15ffd",
+                            "item": {
+                              "id": "sbi-2b29db0e-bc9c-4bdd-8e0d-ce590bdbb15c",
+                              "additionDate": "1441974705",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
+                                "name": "Anchorage, Alaska",
+                                "publishedDate": "1442496586"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                            }
+                          }
+                        ],
+                        "initialItems": [
+                          {
+                            "id": "sbi-2b29db0e-bc9c-4bdd-8e0d-ce590bdbb15c",
+                            "additionDate": "1441974705",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
+                              "name": "Anchorage, Alaska",
+                              "publishedDate": "1442496586"
                             },
-                            {
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                          },
+                          {
+                            "id": "sbi-9e0912cb-d36f-4b64-91cf-b0cc4fb6c819",
+                            "additionDate": "1441974763",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
+                              "name": "Santo Domingo, Dominican Republic",
+                              "publishedDate": "1442496265"
+                            },
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                          },
+                          {
+                            "id": "sbi-73daa582-53a2-4a06-9420-3d5a0820434d",
+                            "additionDate": "1441974782",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
+                              "name": "Kochin, India",
+                              "publishedDate": "1442496190"
+                            },
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                          },
+                          {
+                            "id": "sbi-81806292-b76b-45c2-82d3-079c22ffa648",
+                            "additionDate": "1441974803",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
+                              "name": "Valencia, Spain",
+                              "publishedDate": "1442495595"
+                            },
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                          }
+                        ],
+                        "initialFlowingInItems": [],
+                        "overflow": null,
+                        "events": [
+                          {
+                            "id": "sbe-41c87754-c968-436e-984c-44da1d3d27b4",
+                            "date": "1441974803",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-81806292-b76b-45c2-82d3-079c22ffa648",
+                              "additionDate": "1441974803",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__valencia_spain],
+                                "name": "Valencia, Spain",
+                                "publishedDate": "1442495595"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                            }
+                          },
+                          {
+                            "id": "sbe-ecc4dcaf-68c9-4245-be72-8b22ed838190",
+                            "date": "1441974782",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-73daa582-53a2-4a06-9420-3d5a0820434d",
+                              "additionDate": "1441974782",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__kochin_india],
+                                "name": "Kochin, India",
+                                "publishedDate": "1442496190"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                            }
+                          },
+                          {
+                            "id": "sbe-74e6852f-dee8-4b2a-bbc0-0de2ead3c66e",
+                            "date": "1441974763",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-9e0912cb-d36f-4b64-91cf-b0cc4fb6c819",
+                              "additionDate": "1441974763",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__santo_domingo_dominican_republic],
+                                "name": "Santo Domingo, Dominican Republic",
+                                "publishedDate": "1442496265"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                            }
+                          },
+                          {
+                            "id": "sbe-f6fa17e3-d7d0-43d3-bd1e-58ddd0b0144f",
+                            "date": "1441974705",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-2b29db0e-bc9c-4bdd-8e0d-ce590bdbb15c",
+                              "additionDate": "1441974705",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_place__home__places_and_tastes__places__anchorage_alaska],
+                                "name": "Anchorage, Alaska",
+                                "publishedDate": "1442496586"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377a"
+                            }
+                          }
+                        ],
+                        "snapshots": []
+                      }
+                    },
+                    {
+                      "id": "b-36ce56c4-e5be-eb6b-bab7-efd483d622c0",
+                      "type": "embed",
+                      "name": "Embed Block",
+                      "view": "embed",
+                      "ttl": "0",
+                      "attributes": {
+                        "contentId":[reference:ref_content_folder__home__places_and_tastes__tastes]
+                      }
+                    },
+                    {
+                      "id": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b",
+                      "type": "schedule",
+                      "name": "Bottom grid",
+                      "view": "schedule_grid-4",
+                      "ttl": "0",
+                      "attributes": {
+                        "slots": [
+                          {
+                            "id": "sbs-2a4b3768-5d83-4a0e-85f8-ab9b8e77778f",
+                            "item": {
                               "id": "sbi-bdb3eeee-ccc7-424b-8fad-aa094c31f281",
                               "additionDate": "1441974803",
                               "contentInfo": {
@@ -821,130 +736,211 @@
                               },
                               "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
                             }
-                          ],
-                          "initialFlowingInItems": [],
-                          "overflow": null,
-                          "events": [
-                            {
-                              "id": "sbe-1ca9bd6b-5aa0-4c08-bc0b-5ff40ab991de",
-                              "date": "1441974803",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-bdb3eeee-ccc7-424b-8fad-aa094c31f281",
-                                "additionDate": "1441974803",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__ethiopian_cuisine],
-                                  "name": "Ethiopian Cuisine",
-                                  "publishedDate": "1442581802"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
-                            },
-                            {
-                              "id": "sbe-902b8caa-5602-4d83-9286-af51fc91257d",
-                              "date": "1441974782",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-100bbda8-ab48-41e1-af4c-49ca3054dadd",
-                                "additionDate": "1441974782",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
-                                  "name": "Mexican Cuisine",
-                                  "publishedDate": "1442482389"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
-                            },
-                            {
-                              "id": "sbe-a4b9797c-8f6f-4689-85c5-7cd10449c5c5",
-                              "date": "1441974763",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-10dde6f3-6d70-45f5-97dc-cdc395fa9c98",
-                                "additionDate": "1441974763",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
-                                  "name": "Israeli Cuisine",
-                                  "publishedDate": "1442514289"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
-                            },
-                            {
-                              "id": "sbe-b3d2c9e1-164f-4cd7-9905-4143bbe9d27a",
-                              "date": "1441974705",
-                              "type": "itemAdded",
-                              "item": {
-                                "id": "sbi-93ea7822-501a-408d-92d1-8d13b74b4086",
-                                "additionDate": "1441974705",
-                                "contentInfo": {
-                                  "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__thailand_cuisine],
-                                  "name": "Thai Cuisine",
-                                  "publishedDate": "1442581846"
-                                },
-                                "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
-                              }
+                          },
+                          {
+                            "id": "sbs-02da0fe4-20e6-4c20-9ac3-a86680ef2241",
+                            "item": {
+                              "id": "sbi-100bbda8-ab48-41e1-af4c-49ca3054dadd",
+                              "additionDate": "1441974782",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
+                                "name": "Mexican Cuisine",
+                                "publishedDate": "1442482389"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
                             }
-                          ],
-                          "snapshots": []
-                        }
+                          },
+                          {
+                            "id": "sbs-130abf0b-c7d5-4a4f-9c1a-42e4a7058f4b",
+                            "item": {
+                              "id": "sbi-10dde6f3-6d70-45f5-97dc-cdc395fa9c98",
+                              "additionDate": "1441974763",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
+                                "name": "Israeli Cuisine",
+                                "publishedDate": "1442514289"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                            }
+                          },
+                          {
+                            "id": "sbs-895c37c1-1b59-4cd7-88d1-707bc8d89873",
+                            "item": {
+                              "id": "sbi-93ea7822-501a-408d-92d1-8d13b74b4086",
+                              "additionDate": "1441974705",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__thailand_cuisine],
+                                "name": "Thai Cuisine",
+                                "publishedDate": "1442581846"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                            }
+                          }
+                        ],
+                        "initialItems": [
+                          {
+                            "id": "sbi-93ea7822-501a-408d-92d1-8d13b74b4086",
+                            "additionDate": "1441974705",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__thailand_cuisine],
+                              "name": "Thai Cuisine",
+                              "publishedDate": "1442581846"
+                            },
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                          },
+                          {
+                            "id": "sbi-10dde6f3-6d70-45f5-97dc-cdc395fa9c98",
+                            "additionDate": "1441974763",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
+                              "name": "Israeli Cuisine",
+                              "publishedDate": "1442514289"
+                            },
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                          },
+                          {
+                            "id": "sbi-100bbda8-ab48-41e1-af4c-49ca3054dadd",
+                            "additionDate": "1441974782",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
+                              "name": "Mexican Cuisine",
+                              "publishedDate": "1442482389"
+                            },
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                          },
+                          {
+                            "id": "sbi-bdb3eeee-ccc7-424b-8fad-aa094c31f281",
+                            "additionDate": "1441974803",
+                            "contentInfo": {
+                              "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__ethiopian_cuisine],
+                              "name": "Ethiopian Cuisine",
+                              "publishedDate": "1442581802"
+                            },
+                            "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                          }
+                        ],
+                        "initialFlowingInItems": [],
+                        "overflow": null,
+                        "events": [
+                          {
+                            "id": "sbe-1ca9bd6b-5aa0-4c08-bc0b-5ff40ab991de",
+                            "date": "1441974803",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-bdb3eeee-ccc7-424b-8fad-aa094c31f281",
+                              "additionDate": "1441974803",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__ethiopian_cuisine],
+                                "name": "Ethiopian Cuisine",
+                                "publishedDate": "1442581802"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                            }
+                          },
+                          {
+                            "id": "sbe-902b8caa-5602-4d83-9286-af51fc91257d",
+                            "date": "1441974782",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-100bbda8-ab48-41e1-af4c-49ca3054dadd",
+                              "additionDate": "1441974782",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__mexican_cuisine],
+                                "name": "Mexican Cuisine",
+                                "publishedDate": "1442482389"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                            }
+                          },
+                          {
+                            "id": "sbe-a4b9797c-8f6f-4689-85c5-7cd10449c5c5",
+                            "date": "1441974763",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-10dde6f3-6d70-45f5-97dc-cdc395fa9c98",
+                              "additionDate": "1441974763",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__israeli_cuisine],
+                                "name": "Israeli Cuisine",
+                                "publishedDate": "1442514289"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                            }
+                          },
+                          {
+                            "id": "sbe-b3d2c9e1-164f-4cd7-9905-4143bbe9d27a",
+                            "date": "1441974705",
+                            "type": "itemAdded",
+                            "item": {
+                              "id": "sbi-93ea7822-501a-408d-92d1-8d13b74b4086",
+                              "additionDate": "1441974705",
+                              "contentInfo": {
+                                "contentId":[reference:ref_content_article__home__places_and_tastes__tastes__thailand_cuisine],
+                                "name": "Thai Cuisine",
+                                "publishedDate": "1442581846"
+                              },
+                              "originBlockId": "b-3da7c5f6-35e3-0246-4a80-be6211d3377b"
+                            }
+                          }
+                        ],
+                        "snapshots": []
                       }
-                    ]
-                  },
-                  {
-                    "id": "second",
-                    "name": "Second zone",
-                    "blocks": [
-                      {
-                        "id": "b-3b73fd28-389a-d261-7e87-689757944c9c",
-                        "type": "banner",
-                        "name": "Banner Block",
-                        "view": "banner",
-                        "ttl": "0",
-                        "attributes": {
-                          "contentId":[reference:ref_content_image__media__images__contact_us],
-                          "url": "http://ez.no"
-                        }
-                      },
-                      {
-                        "id": "b-e200906e-3ec9-ad1e-2e8b-32c713002547",
-                        "type": "rss",
-                        "name": "RSS Block",
-                        "view": "rss",
-                        "ttl": "0",
-                        "attributes": {
-                          "url": "http://ez.no/rss/feed/blog",
-                          "limit": "6",
-                          "offset": "0"
-                        }
-                      },
-                      {
-                        "id": "b-3d66d5af-57f9-1e3c-f3e2-9f26af4fb7a4",
-                        "type": "contentlist",
-                        "name": "Content List Block",
-                        "view": "contentlist",
-                        "ttl": "0",
-                        "attributes": {
-                          "contentId":[reference:ref_content_blog__home__blog],
-                          "contentType": "blog_post",
-                          "limit": "5"
-                        }
-                      },
-                      {
-                        "id": "b-eb59c8f9-b1b2-9651-473b-a897ee3d6aba",
-                        "type": "banner",
-                        "name": "Banner Block",
-                        "view": "banner",
-                        "ttl": "0",
-                        "attributes": {
-                          "contentId":[reference:ref_content_image__media__images__bottom_right_banner],
-                          "url": "http://ez.no"
-                        }
+                    }
+                  ]
+                },
+                {
+                  "id": "second",
+                  "name": "Second zone",
+                  "blocks": [
+                    {
+                      "id": "b-3b73fd28-389a-d261-7e87-689757944c9c",
+                      "type": "banner",
+                      "name": "Banner Block",
+                      "view": "banner",
+                      "ttl": "0",
+                      "attributes": {
+                        "contentId":[reference:ref_content_image__media__images__contact_us],
+                        "url": "http://ez.no"
                       }
-                    ]
-                  }
-                ]
-              }
+                    },
+                    {
+                      "id": "b-e200906e-3ec9-ad1e-2e8b-32c713002547",
+                      "type": "rss",
+                      "name": "RSS Block",
+                      "view": "rss",
+                      "ttl": "0",
+                      "attributes": {
+                        "url": "http://ez.no/rss/feed/blog",
+                        "limit": "6",
+                        "offset": "0"
+                      }
+                    },
+                    {
+                      "id": "b-3d66d5af-57f9-1e3c-f3e2-9f26af4fb7a4",
+                      "type": "contentlist",
+                      "name": "Content List Block",
+                      "view": "contentlist",
+                      "ttl": "0",
+                      "attributes": {
+                        "contentId":[reference:ref_content_blog__home__blog],
+                        "contentType": "blog_post",
+                        "limit": "5"
+                      }
+                    },
+                    {
+                      "id": "b-eb59c8f9-b1b2-9651-473b-a897ee3d6aba",
+                      "type": "banner",
+                      "name": "Banner Block",
+                      "view": "banner",
+                      "ttl": "0",
+                      "attributes": {
+                        "contentId":[reference:ref_content_image__media__images__bottom_right_banner],
+                        "url": "http://ez.no"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
     references:
         -
