@@ -3,15 +3,6 @@
 %}
     <link rel="stylesheet" type="text/css" href="{{ asset_url }}"/>
 {% endstylesheets %}
-
-{% javascripts
-    '%kernel.root_dir%/../vendor/components/handlebars.js/handlebars.min.js'
-    'bundles/ezsystemsrecommendation/js/recommendationtemplaterenderer.js'
-    'bundles/ezsystemsrecommendation/js/recommendationtemplatehelper.js'
-    'bundles/ezsystemsrecommendation/js/recommendationrestclient.js'
-%}
-    <script type="text/javascript" src="{{ asset_url }}"></script>
-{% endjavascripts %}
 {% if content is defined %}
     {#
     {{ yc_track_user(content.id) }}

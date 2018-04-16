@@ -11,6 +11,8 @@
         }
     ],
     "repositories": [
+        { "type": "vcs", "url": "https://github.com/ezsystems/ezplatform-page-fieldtype" },
+        { "type": "vcs", "url": "https://github.com/ezsystems/ezplatform-page-builder" },
         { "type": "composer", "url": "https://updates.ez.no/ttl" }
     ],
     "replace": {
@@ -48,18 +50,13 @@
         "ezsystems/ezplatform-admin-ui-modules": "^1.1@dev",
         "ezsystems/ezplatform-admin-ui-assets": "^2.0@dev",
         "ezsystems/ezplatform-design-engine": "^1.2@dev",
-        "ezsystems/platform-ui-bundle": "^2.1@dev",
-        "ezsystems/studio-ui-bundle": "^2.1@dev",
-        "ezsystems/ezstudio-form-builder": "^2.1@dev",
         "ezsystems/ezstudio-notifications": "^2.1@dev",
-        "ezsystems/date-based-publisher": "^2.1@dev",
-        "ezsystems/landing-page-fieldtype-bundle": "^2.1@dev",
-        "ezsystems/flex-workflow": "^2.1@dev",
         "ezsystems/ezstudio-cron": "^1.0@dev",
         "ezsystems/ezstudio-installer": "^2.1@dev",
-        "ezsystems/platform-ui-assets-bundle": "^5.0.0",
         "ezsystems/ezplatform-http-cache-fastly": "^1.1@dev",
         "ezsystems/ezplatform-demo-assets": "^1.0@beta",
+        "ezsystems/ezplatform-page-fieldtype": "^1.0@dev",
+        "ezsystems/ezplatform-page-builder": "dev-use_page_fieldtype_package as ^1.0@dev",
         "ezsystems/comments-bundle": "^6.0@dev",
         "knplabs/knp-menu-bundle": "^2.1",
         "willdurand/js-translation-bundle": "^2.6.4",
@@ -74,8 +71,6 @@
         "novactive/ezseobundle": "^3.0.0@rc",
         "components/bootstrap": "3.3.5",
         "components/handlebars.js": "~3.0.0",
-        "ezsystems/ezstudio-personalized-block": "^1.2@rc",
-        "ezsystems/recommendation-bundle": "^2.0@rc",
         "symfony/thanks": "^1.0"
     },
     "require-dev": {
