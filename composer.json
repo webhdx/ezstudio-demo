@@ -11,8 +11,8 @@
         }
     ],
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/ezsystems/ezplatform-page-fieldtype" },
-        { "type": "vcs", "url": "https://github.com/ezsystems/ezplatform-page-builder" },
+        { "type": "vcs", "url": "https://github.com/webhdx/ezplatform-page-fieldtype" },
+        { "type": "vcs", "url": "https://github.com/webhdx/ezplatform-page-builder" },
         { "type": "composer", "url": "https://updates.ez.no/ttl" }
     ],
     "replace": {
