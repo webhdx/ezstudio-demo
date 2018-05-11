@@ -11,8 +11,6 @@
         }
     ],
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/webhdx/ezplatform-page-fieldtype" },
-        { "type": "vcs", "url": "https://github.com/webhdx/ezplatform-page-builder" },
         { "type": "composer", "url": "https://updates.ez.no/ttl" }
     ],
     "replace": {
@@ -55,8 +53,9 @@
         "ezsystems/ezstudio-installer": "^2.1@dev",
         "ezsystems/ezplatform-http-cache-fastly": "^1.1@dev",
         "ezsystems/ezplatform-demo-assets": "^1.0@beta",
-        "ezsystems/ezplatform-page-fieldtype": "dev-doctrine-storage as 1.1.0",
-        "ezsystems/ezplatform-page-builder": "dev-external-storage as 1.1.0",
+        "ezsystems/ezplatform-page-fieldtype": "^1.0@dev",
+        "ezsystems/ezplatform-page-builder": "^1.0@dev",
+        "ezsystems/flex-workflow": "^2.2@dev",
         "ezsystems/comments-bundle": "^6.0@dev",
         "knplabs/knp-menu-bundle": "^2.1",
         "willdurand/js-translation-bundle": "^2.6.4",
