@@ -11,8 +11,8 @@
         }
     ],
     "repositories": [
-        { "type": "vcs", "url": "https://github.com/ezsystems/ezplatform-page-fieldtype" },
-        { "type": "vcs", "url": "https://github.com/ezsystems/ezplatform-page-builder" },
+        { "type": "vcs", "url": "https://github.com/dew326/flex-workflow.git" },
+        { "type": "vcs", "url": "https://github.com/dew326/date-based-publisher.git" },
         { "type": "composer", "url": "https://updates.ez.no/ttl" }
     ],
     "replace": {
@@ -57,6 +57,8 @@
         "ezsystems/ezplatform-demo-assets": "^1.0@beta",
         "ezsystems/ezplatform-page-fieldtype": "^1.0@dev",
         "ezsystems/ezplatform-page-builder": "^1.0@dev",
+        "ezsystems/flex-workflow": "dev-fw-integration as 2.1.0",
+        "ezsystems/date-based-publisher": "dev-pb-integration as 2.1.0",
         "ezsystems/comments-bundle": "^6.0@dev",
         "knplabs/knp-menu-bundle": "^2.1",
         "willdurand/js-translation-bundle": "^2.6.4",
