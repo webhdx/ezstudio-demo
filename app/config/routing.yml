@@ -68,9 +68,6 @@ ezplatform.page_builder:
     defaults:
         siteaccess_group_whitelist: '%admin_group_name%'
 
-ezplatform.ee.flex_workflow:
-    resource: '@FlexWorkflowBundle/Resources/config/routing.yml'
-
 fos.js_routing:
     resource: '@FOSJsRoutingBundle/Resources/config/routing/routing.xml'
 
