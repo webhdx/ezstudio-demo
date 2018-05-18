@@ -1,4 +1,4 @@
-ez_platform_page_field_type:
+ezplatform_page_fieldtype:
     layouts:
         '1':
             identifier: '1'
