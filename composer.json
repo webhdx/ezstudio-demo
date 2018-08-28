@@ -52,7 +52,7 @@
         "ezsystems/ezplatform-cron": "^2.0@dev",
         "ezsystems/date-based-publisher": "^3.0@dev",
         "ezsystems/flex-workflow": "^3.0@dev",
-        "ezsystems/ezplatform-page-fieldtype": "^1.0@dev",
+        "ezsystems/ezplatform-page-fieldtype": "^1.1@dev",
         "ezsystems/ezplatform-page-builder": "^1.0@dev",
         "ezsystems/ezplatform-http-cache-fastly": "^1.1@dev",
         "ezsystems/ezplatform-automated-translation": "^2.0@rc",
