@@ -1,0 +1,60 @@
+# references
+-
+    type: reference
+    mode: load
+    file: 'src/AppBundle/MigrationVersions/References/references.yml'
+    overwrite: true
+
+# form content type
+-
+    type: content_type
+    mode: create
+    content_type_group: Content
+    identifier: form
+    name: Form
+    name_pattern: <title>
+    is_container: false
+    default_sort_field: published
+    default_sort_order: DESC
+    attributes:
+        -
+            type: ezstring
+            name: Title
+            identifier: title
+            description: Title
+            required: true
+            searchable: true
+            category: content
+        -
+            type: ezform
+            name: Form
+            identifier: form
+            description: Form
+            required: false
+            searchable: false
+            category: content
+
+# folder for Forms
+-
+    type: content
+    mode: create
+    content_type: folder
+    section: reference:ref_section__standard
+    parent_location: 1
+    attributes:
+        name: 'Forms'
+        short_name: ''
+        show_children: true
+    references:
+        -
+            identifier: ref_location_folder__forms
+            attribute: location_id
+        -
+            identifier: ref_content_folder__forms
+            attribute: content_id
+
+-
+    type: reference
+    mode: save
+    file: 'src/AppBundle/MigrationVersions/References/references.yml'
+    overwrite: true
