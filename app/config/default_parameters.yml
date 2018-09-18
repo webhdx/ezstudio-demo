@@ -35,6 +35,10 @@ parameters:
 
     # Cache DSN, see app/config/services/cache.yml for examples:
     cache_dsn: '%env(CACHE_DSN)%'
+    
+    # Cache namespace prefix for use with Redis/Memcached, 'ez' by default. 
+    # For further info incl alternatives for "blue/green deployment" and multi repo installs, see: app/config/cache_pool/*.yml
+    cache_namespace: '%env(CACHE_NAMESPACE)%'
 
     # Settings for HttpCache
     purge_server: '%env(HTTPCACHE_PURGE_SERVER)%'
@@ -71,6 +75,8 @@ parameters:
     env(CACHE_POOL): "cache.app"
 
     env(CACHE_DSN): localhost
+
+    env(CACHE_NAMESPACE): ez
 
     env(HTTPCACHE_PURGE_SERVER): "http://localhost:80"
 
@@ -115,9 +121,9 @@ parameters:
 
     # locationIds used for fetching items on home page
     app.home.place_list_location_id: 219
-    app.home.tastes_location_id: 96
+    app.home.tastes_location_id: 207
 
-    app.migration_reference_file: '/src/AppBundle/MigrationVersions/References/references_all.yml'
+    app.migration_reference_file: '/src/AppBundle/MigrationVersions/References/references.yml'
     
     app.migration.values_mapping:
         app.home.place_list_location_id: 'ref_location_place_list__home__places_and_tastes__places'
