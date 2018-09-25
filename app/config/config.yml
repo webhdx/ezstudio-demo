@@ -168,3 +168,5 @@ ez_platform_automated_translation:
             configurations:
                 google:
                     apiKey: '%env(GOOGLE_TRANSLATE_API_KEY)%'
+
+gregwar_captcha: ~

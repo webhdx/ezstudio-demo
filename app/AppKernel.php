@@ -30,6 +30,7 @@ class AppKernel extends Kernel
             new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
             new Novactive\Bundle\eZSEOBundle\NovaeZSEOBundle(),
             new Kaliop\eZMigrationBundle\EzMigrationBundle(),
+            new Gregwar\CaptchaBundle\GregwarCaptchaBundle(),
             // eZ Systems
             new EzSystems\PlatformHttpCacheBundle\EzSystemsPlatformHttpCacheBundle(),
             new EzSystems\PlatformFastlyCacheBundle\EzSystemsPlatformFastlyCacheBundle(),
