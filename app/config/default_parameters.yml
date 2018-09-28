@@ -129,6 +129,10 @@ parameters:
     # form builder
     ezsettings.default.form_builder.forms_location_id: 239
 
+    # Location Ids of allowed user groups for viewing Articles with premium content
+    # 12 - members, 13 administrator_users, 14 - editors
+    app.premium_content.allowed_user_groups.location_ids: [12, 13, 14]
+
     app.migration_reference_file: '/src/AppBundle/MigrationVersions/References/references.yml'
     
     app.migration.values_mapping:
