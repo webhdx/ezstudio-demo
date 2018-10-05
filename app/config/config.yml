@@ -169,4 +169,5 @@ ez_platform_automated_translation:
                 google:
                     apiKey: '%env(GOOGLE_TRANSLATE_API_KEY)%'
 
-gregwar_captcha: ~
+gregwar_captcha:
+    as_url: true
