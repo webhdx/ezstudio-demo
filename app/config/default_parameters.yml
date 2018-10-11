@@ -55,7 +55,7 @@ parameters:
     ezplatform.session.save_path: '%env(SESSION_SAVE_PATH)%'
 
     # Recommendation Bundle params
-    ez_recommendation.default.yoochoose.customer_id: '%env(RECOMMENDATIONS_CUSTOMER_ID)%'
+    ez_recommendation.default.yoochoose.customer_id: '%env(int:RECOMMENDATIONS_CUSTOMER_ID)%'
     ez_recommendation.default.yoochoose.license_key: '%env(RECOMMENDATIONS_LICENSE_KEY)%'
     ez_recommendation.default.server_uri: '%env(PUBLIC_SERVER_URI)%'
 
