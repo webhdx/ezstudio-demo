@@ -21,56 +21,62 @@ $cards-container: '.cards-container';
     justify-content: space-between;
   }
 
-  .card-deck .card {
-    margin-bottom: 35px;
-    flex: 0 0 calc(25% - 30px);
+  .card-deck {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
 
-    .card-img-top {
-      height: 175px;
-    }
+    .card {
+      margin-bottom: 35px;
+      flex: 0 0 calc(25% - 30px);
 
-    .card-body {
-      height: 175px;
-    }
-
-    .card-title {
-      &__link {
-        color: $grey-dark;
-        font-size: 17px;
-        font-weight: 600;
-        text-overflow: ellipsis;
-        overflow: hidden;
-        white-space: nowrap;
-        display: block;
+      .card-img-top {
+        height: 175px;
       }
-    }
 
-    .card-text {
-      line-height: 1.6em;
-      max-height: 6.4em;
-      display: block;
-      text-overflow: ellipsis;
-      word-wrap: break-word;
-      overflow: hidden;
-      font-size: 15px;
-    }
+      .card-body {
+        height: 175px;
+      }
 
-    &--horizontal {
-      flex-direction: row;
-      height: 175px;
-      width: 540px;
-      flex: initial;
+      .card-title {
+        &__link {
+          color: $grey-dark;
+          font-size: 17px;
+          font-weight: 600;
+          text-overflow: ellipsis;
+          overflow: hidden;
+          white-space: nowrap;
+          display: block;
+        }
+      }
 
-      .card-img {
-        flex: 0 0 230px;
-        height: 173px;
-        border-top-left-radius: calc(0.25rem - 1px);
-        border-top-right-radius: 0;
-        border-bottom-right-radius: 0;
-        border-bottom-left-radius: calc(0.25rem - 1px);
+      .card-text {
+        line-height: 1.6em;
+        max-height: 6.4em;
+        display: block;
+        text-overflow: ellipsis;
+        word-wrap: break-word;
+        overflow: hidden;
+        font-size: 15px;
+      }
 
-        &+.card-body {
-          width: 310px;
+      &--horizontal {
+        flex-direction: row;
+        height: 175px;
+        width: 540px;
+        flex: initial;
+
+        .card-img {
+          flex: 0 0 230px;
+          height: 173px;
+          border-top-left-radius: calc(0.25rem - 1px);
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          border-bottom-left-radius: calc(0.25rem - 1px);
+
+          & + .card-body {
+            width: 310px;
+          }
         }
       }
     }
@@ -81,16 +87,15 @@ $cards-container: '.cards-container';
   &.col-4,
   &.bs-col-4 {
     #{($cards-container)} {
-      .card-deck {
-        padding-left: 9px;
-
-        .card {
-          flex: 0 0 calc(90% - 30px);
-        }
+      .card-deck .card {
+        flex: 0 0 calc(100% - 30px);
       }
 
       &--horizontal .card-deck {
         padding: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
 
         .card--horizontal {
           flex: initial;
@@ -100,7 +105,7 @@ $cards-container: '.cards-container';
             flex: 0 0 150px;
 
             &+.card-body {
-              width: 228px;
+              width: 198px;
             }
           }
         }
@@ -116,13 +121,13 @@ $cards-container: '.cards-container';
 
         &--horizontal {
           flex: initial;
-          width: 570px;
+          width: 540px;
 
           .card-img {
             flex: 0 0 230px;
 
             &+.card-body {
-              width: 338px;
+              width: 306px;
             }
           }
         }
