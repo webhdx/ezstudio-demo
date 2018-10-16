@@ -1,7 +1,3 @@
-.landing-page__block {
-    margin-bottom: 30px;
-}
-
 .thumbnail.cuisine {
     margin: 0;
     padding: 0;
@@ -312,13 +308,16 @@ h4.header {
     margin-bottom: 0;
 }
 
+.landing-page__zones:last-of-type .landing-page__block:last-of-type {
+    padding-bottom: 0;
+}
+
 .landing-page--dynamic > .container-fluid {
     padding: 0;
 }
 
 .map-container.leaflet-container,
-.landing-page--dynamic .places-background,
-.landing-page__block.block_places {
+.landing-page--dynamic .places-background {
     background-color: #261B2F;
     position: relative;
 }

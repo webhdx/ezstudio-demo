@@ -131,7 +131,7 @@ class PlacesBlockListener implements EventSubscriberInterface
         $query = new Query();
         $query->query = new Criterion\LogicalAnd(
             [
-                new Criterion\Subtree($location->pathString),
+                new Criterion\ParentLocationId($location->id),
                 new Criterion\ContentTypeIdentifier('place'),
                 new Criterion\Visibility(Criterion\Visibility::VISIBLE),
             ]
