@@ -105,22 +105,17 @@ ezplatform_page_fieldtype:
 
         contentlist:
             views:
+                blog:
+                    template: '@ezdesign/blocks/contentlist/blog.html.twig'
+                    name: 'Blog list'
+
                 cards:
-                    template: '@ezdesign/blocks/cards/cards_list.html.twig'
-                    name: 'Cards list layout'
+                    template: '@ezdesign/blocks/contentlist/cards.html.twig'
+                    name: 'Cards'
 
-                places:
-                    template: '@ezdesign/blocks/places/cards.html.twig'
-                    name: 'Places list layout'
-
-                tastes:
-                    template: '@ezdesign/blocks/tastes/cards.html.twig'
-                    name: 'Tastes list layout'
-
-                tastes_contentlist:
-                    template: '@ezdesign/blocks/contentlist/tastes.html.twig'
-                    name: 'Platform EE Demo tastes contentlist'
-
+                list:
+                    template: '@ezdesign/blocks/contentlist/list.html.twig'
+                    name: 'List'
         banner:
             views:
                 banner:
@@ -135,7 +130,7 @@ ezplatform_page_fieldtype:
 
                 embed_wide:
                     template: '@ezdesign/blocks/embed/embed_wide.html.twig'
-                    name: 'Platform EE Demo wide embed block'
+                    name: 'Wide'
 
         places:
             views:
@@ -155,6 +150,14 @@ ezplatform_page_fieldtype:
                 cards:
                     template: '@ezdesign/blocks/tastes/cards.html.twig'
                     name: 'Cards'
+
+                list:
+                    template: '@ezdesign/blocks/tastes/list.html.twig'
+                    name: 'List'
+
+                home:
+                    template: '@ezdesign/blocks/tastes/home.html.twig'
+                    name: 'Home page layout - tastes list'
 
         gallery:
             views:
@@ -176,21 +179,24 @@ ezplatform_page_fieldtype:
 
         collection:
             views:
-                content:
-                    template: '@ezdesign/blocks/collection/content.html.twig'
-                    name: 'Content List View'
+                list:
+                    template: '@ezdesign/blocks/collection/list.html.twig'
+                    name: 'List'
                     options:
-                        match: [article, blog_post]
-                gallery:
-                    template: '@ezdesign/blocks/collection/content.html.twig'
-                    name: 'Gallery View'
+                        match: [article, blog_post, image, product, place]
+
+                cards:
+                    template: '@ezdesign/blocks/collection/cards.html.twig'
+                    name: 'Cards'
                     options:
-                        match: [image]
+                        match: [article, blog_post, image, product, place]
+
         schedule:
             views:
                 cards:
                     template: '@ezdesign/blocks/schedule/cards.html.twig'
-                    name: 'Cards layout'
+                    name: 'Cards'
+
                 list:
                     template: '@ezdesign/blocks/schedule/list.html.twig'
-                    name: 'List layout'
+                    name: 'List'

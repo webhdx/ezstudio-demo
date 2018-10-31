@@ -133,7 +133,7 @@ class TastesBlockListener implements EventSubscriberInterface
         $query = new Query();
         $query->query = new Criterion\LogicalAnd(
             [
-                new Criterion\Subtree($location->pathString),
+                new Criterion\ParentLocationId($location->id),
                 new Criterion\ContentTypeIdentifier('article'),
                 new Criterion\Visibility(Criterion\Visibility::VISIBLE)
             ]
