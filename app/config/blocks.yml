@@ -34,14 +34,14 @@ ezplatform_page_fieldtype:
             attributes:
                 contentId:
                     type: embed
-                    name: Places
+                    name: Parent
                     validators:
                         not_blank:
                             message: You must provide value
                         regexp:
                             options:
                                 pattern: '/[0-9]+/'
-                            message: Choose a folder with Content items of the type Places
+                            message: Choose a container with Content items of the type Places
                 limit:
                     type: 'integer'
                     name: Limit
@@ -56,7 +56,7 @@ ezplatform_page_fieldtype:
         tastes:
             name: Tastes
             category: default
-            thumbnail: '/bundles/ezplatformadminui/img/ez-icons.svg#file'
+            thumbnail: '/assets/images/page_builder/blocks/tastes.svg#tastes'
             attributes:
                 contentId:
                     type: 'embed'
@@ -67,7 +67,7 @@ ezplatform_page_fieldtype:
                         regexp:
                             options:
                                 pattern: '/[0-9]+/'
-                            message: Choose a Content item
+                            message: Choose a container with Content items of the type Article
                 limit:
                     type: 'integer'
                     name: Limit

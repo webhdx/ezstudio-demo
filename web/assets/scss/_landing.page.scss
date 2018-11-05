@@ -308,10 +308,6 @@ h4.header {
     margin-bottom: 0;
 }
 
-.landing-page__zones:last-of-type .landing-page__block:last-of-type {
-    padding-bottom: 0;
-}
-
 .landing-page--dynamic > .container-fluid {
     padding: 0;
 }
@@ -376,34 +372,33 @@ h4.header {
 }
 
 /* blog post */
-.content-type-blog-post.embed .thumbnail img {
+.content-type-blog-post.embed .banner-image img {
     max-height: 450px;
     object-fit: cover;
 }
-.content-type-blog-post.embed .thumbnail {
+
+.content-type-blog-post.embed .banner-image {
     max-height: 450px;
 }
 
-.content-type-blog-post.embed .title {
-    background: #3c3330;
-    position: absolute;
-    bottom: 47px;
-    height: 97px;
-    width: 421px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.content-type-blog-post.embed .card-img-overlay {
+    padding-left: 0;
 }
 
-.content-type-blog-post.embed .title a {
+.content-type-blog-post.embed h2 {
+    font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+    font-size: 30px;
     color: #fff;
-    font-size: 32px;
+    background: #3c3330;
+    margin-bottom: 0;
+    padding: 15px 40px;
+    position: absolute;
+    bottom: 25px;
 }
 
-.content-type-blog-post.embed .title a:hover {
-    text-decoration: none;
+.content-type-blog-post.embed .card-img-overlay:hover h2.card-title {
+    background: #0073ae;
 }
-
 
 .landing-page__zone .places-map-block-view .explore {
     display: flex;
@@ -437,12 +432,12 @@ h4.header {
 }
 
 /* place embed wide */
-.landing-page__block .block_embed {
+.landing-page__block .block-embed {
     margin-bottom: 0;
     padding-bottom: 0;
 }
 
-.landing-page__block .block_embed .places-to-go {
+.landing-page__block .block-embed.places-to-go {
     background-color: #261B2F;
     margin-bottom: 0;
     padding: 0;
@@ -511,4 +506,26 @@ h4.header {
     font-weight: 600;
     line-height: 25px;
     color: #fff;
+}
+
+@media (max-width: 575.98px) {
+    .landing-page__block .block-embed.places-to-go .field-intro,
+    .landing-page__block .block-embed.places-to-go .field-caption {
+        display: none;
+    }
+
+    .landing-page__block .block-embed.places-to-go {
+        height: 200px;
+    }
+
+    .content-type-place-item-container.embed-wide .info-panel {
+        width: 200px;
+        height: 200px;
+        padding: 10px;
+    }
+
+    .content-type-place-item-container.embed-wide .info-panel .field-header {
+        font-size: 20px;
+        padding-bottom: 20px;
+    }
 }
