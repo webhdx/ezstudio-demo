@@ -79,6 +79,8 @@ framework:
     assets: true
     php_errors:
         log: true
+    workflow:
+        enabled: true
 
 # Twig Configuration
 twig:
@@ -106,6 +108,10 @@ swiftmailer:
     spool: { type: memory }
 
 # FOSHttpCache Configuration
+#nelmio_esi_debug:
+##    enabled: true
+#    enabled: false
+
 fos_http_cache:
     cache_control:
         rules:

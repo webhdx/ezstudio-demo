@@ -63,6 +63,7 @@ class AppKernel extends Kernel
             new EzSystems\FlexWorkflowBundle\EzSystemsFlexWorkflowBundle(),
             new EzSystems\RecommendationBundle\EzSystemsRecommendationBundle(),
             new EzSystems\PersonalizedBlockBundle\EzSystemsPersonalizedBlockBundle(),
+            new EzSystems\EzPlatformWorkflowBundle\EzPlatformWorkflowBundle(),
             // Application
             new AppBundle\AppBundle(),
         ];

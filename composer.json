@@ -11,7 +11,9 @@
         }
     ],
     "repositories": [
-        { "type": "composer", "url": "https://updates.ez.no/ttl" }
+        { "type": "composer", "url": "https://updates.ez.no/ttl" },
+        { "type": "github", "url": "https://github.com/ezsystems/ezplatform-workflow" },
+        { "type": "github", "url": "https://github.com/webhdx/ezplatform-admin-ui" }
     ],
     "replace": {
         "ezsystems/ezstudio-demo": "*",
@@ -39,7 +41,7 @@
         "ezsystems/comments-bundle": "^6.1.2@dev",
         "ezsystems/date-based-publisher": "^3.2@dev",
         "ezsystems/ez-support-tools": "^0.2.1@dev",
-        "ezsystems/ezplatform-admin-ui": "^1.4@dev",
+        "ezsystems/ezplatform-admin-ui": "dev-workflow as 1.4.0-dev",
         "ezsystems/ezplatform-admin-ui-assets": "^3.1@dev",
         "ezsystems/ezplatform-admin-ui-modules": "^1.4@dev",
         "ezsystems/ezplatform-automated-translation": "^2.0@rc",
@@ -57,6 +59,7 @@
         "ezsystems/ezpublish-kernel": "^7.4@dev",
         "ezsystems/ezstudio-personalized-block": "~2.1@rc",
         "ezsystems/flex-workflow": "^3.2@dev",
+        "ezsystems/ezplatform-workflow": "^1.0@dev",
         "ezsystems/recommendation-bundle": "~2.2@rc",
         "ezsystems/repository-forms": "^2.4@dev",
         "friendsofsymfony/jsrouting-bundle": "^1.6.3",
